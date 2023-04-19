@@ -98,3 +98,19 @@ span {
   .card-container span{
       font-size: 20px;
   }
+
+/* RESPONSIVE*/
+@media only screen and (max-width: 1250px){
+  .header{
+      display:block;
+  }
+  .mainnav{
+      display:block;
+      text-align:center;
+  }
+  .mainnav ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+}
